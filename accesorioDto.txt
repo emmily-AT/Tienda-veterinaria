@@ -1,0 +1,3 @@
+56,cama,bonia,1200.0
+54,collar,grande,32.0
+18,cama,grande,50000.0
