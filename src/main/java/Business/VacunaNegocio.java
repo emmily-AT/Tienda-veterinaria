@@ -34,7 +34,7 @@ public class VacunaNegocio {
         return false;
     }
 
-    public List<VacunaDto> listarVacunas() { //listarPersonas
+    public List<VacunaDto> listarVacunas() { 
         return vacunaDAO.listarVacunas();
     }
     
@@ -59,3 +59,4 @@ public class VacunaNegocio {
 
 
 }
+
