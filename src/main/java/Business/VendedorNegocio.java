@@ -24,7 +24,7 @@ public class VendedorNegocio {
         return false;
     }
 
-    public List<VendedorDto > listarVendedores() { //listarPersonas
+    public List<VendedorDto > listarVendedores() { 
         return vendedorDAO.listarVendedores();
     }
     
@@ -49,3 +49,4 @@ public class VendedorNegocio {
 
 
 }
+
