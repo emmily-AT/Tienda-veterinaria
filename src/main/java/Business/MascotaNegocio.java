@@ -14,7 +14,7 @@ public class MascotaNegocio {
     }
 
     public boolean almacenarMascota(MascotaDto mascota) {
-        //Validaciones de negocio y se ejecutarán los casos de uso de la aplicación
+
         if(consultarMascota(mascota.getId())== null){
             mascotaDAO.almacenarMascota(mascota);
             return true;
@@ -22,7 +22,7 @@ public class MascotaNegocio {
         return false;
     }
 
-    public List<MascotaDto> listarMascotas() { //listarPersonas
+    public List<MascotaDto> listarMascotas() { 
         return mascotaDAO.listarMascotas();
     }
     
@@ -45,3 +45,4 @@ public class MascotaNegocio {
         return false;
     }
 }
+
