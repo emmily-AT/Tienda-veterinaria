@@ -33,7 +33,6 @@ public class AccesorioNegocio {
         return false;
     }
 
-    public List<AccesorioDto> listarAccesorios() { //listarPersonas
         return accesorioDAO.listarAccesorios();
     }
     
@@ -58,3 +57,4 @@ public class AccesorioNegocio {
 
 
 }
+
